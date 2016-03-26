@@ -1,0 +1,37 @@
+//dani u sedmici
+
+var dan = prompt("Unesite danasnji dan u sedmici.");
+
+switch (dan) {
+case "ponedjeljak":
+	console.log(dan + " je radni dan.");
+	break;
+
+case "utorak":
+	console.log(dan + " je radni dan.");
+	break;
+
+case "srijeda":
+	console.log(dan + " je radni dan.");
+	break;
+
+case "cetvrtak":
+	console.log(dan + " je radni dan.");
+	break;
+
+case "petak":
+	console.log(dan + " je radni dan. Sutra je neradni dan.");
+	break;
+
+case "subota":
+	console.log(dan + " je neradni dan. Sutra je neradni dan.");
+	break;
+
+case "nedjelja":
+	console.log(dan + " je neradni dan. Sutra je radni dan.");
+	break;
+
+case "default":
+	console.log("Napisite dan u sedmici malim slovima.");
+	break;
+}
